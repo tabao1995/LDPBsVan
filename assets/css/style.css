@@ -24,6 +24,9 @@ p,li{
     color: #fff;
     font-family: "open-sans", sans-serif;
 }
+img{
+    width: 100%;
+}
 .banner h1{
     font-size: 40px;
 }
@@ -34,6 +37,7 @@ p,li{
     z-index: 2;
     background: #fff;
     left: calc(50% - 25px);
+    width: unset;
 }
 .four-assert-container{
   display: grid;
