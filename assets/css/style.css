@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section{
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    
+}
+.banner{
+    background-color: #19640f;
+    text-align: center;
+    padding: 80px;
+    color: #fff;
+    font-family: "open-sans", sans-serif;
+}
+.banner h1{
+    font-size: 40px;
+}
+img{
+    width: 100%;
+}
+.four-assert-container{
+  display: flex;
+  flex-direction: column;
+  gap :40px
+}
+.four-assert-container > .assert h2  {
+    padding-bottom: 40px;
+}
+.title h2{
+    text-align: center;
+} 
+.form-container {
+    width: 40%;
+    margin: auto;
+
+}
+.contact-form h3{
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+
+}
+.contact-form form {
+    background-color: #55b546;
+    border-radius: 12px;
+    padding:40px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input {
+    padding:12px 24px;
+    border-radius: 8px;
+    margin: 20px;
+    outline: none;
+    border: none;
+}
+.contact-form .flashanimation {
+    animation: flash 700ms infinite;
+}
+@keyframes flash {
+    0% {        opacity: 1;    }
+    50%{        opacity: 0;    }
+    100% {        opacity: 1;    };
+}
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+    height: inherit !important;
+}
