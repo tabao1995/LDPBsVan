@@ -5,4 +5,8 @@ jQuery(document).ready(() =>{
         autoplay: true,
         autoplaySpeed: 2000,
     })
+    jQuery(".custom-review").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1, 
+    })
 })

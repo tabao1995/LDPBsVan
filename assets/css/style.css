@@ -2,6 +2,15 @@
     padding: 0;
     margin: 0;
 }
+h2 , h3 {
+    line-height: 1.5em;
+    padding-bottom: 4px;
+}
+p,li{
+    font-size: 18px;
+    line-height: 1.5em;
+    padding-bottom: 4px ;
+}
 .section{
     width: 90%;
     margin: auto;
@@ -73,4 +82,64 @@ img{
 .slick-slide
 {
     height: inherit !important;
+}
+.chiphi {
+    background: linear-gradient(135deg, rgb(4, 170, 110) 0%, rgba(36,154,17,0.46262254901960786)100%);
+
+}
+.chiphi .chiphi-section-60{
+    width: 60%;
+    padding: 60px;
+    margin: auto;
+}
+.chiphi-header{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-size: 32px!important;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.chiphi-header-first{
+    background-color: #55b546;
+    padding: 8px 12px;
+}
+.chiphi-header-second{
+    border: #55b546 8px solid; 
+    padding: 0px 12px;
+
+}
+.chiphi-text{
+    color: #fff;
+}
+.chiphi-button {
+    padding :40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.chiphi-button a {
+    text-align: center;
+    background-color: #55b546;
+    color: #fff;
+    text-decoration: none;
+    padding:28px 40px;
+    border-radius: 80px;
+    box-shadow: 5px 5px 5px #19640f;
+}
+.custom-review .slick-slide {
+    background-color: #55b546;
+    padding: 48px;
+    border-radius: 32px;
+}
+.custom-review-container p{
+    font-size: 24px;
+    color: #fff;
+
+}
+
+.custom-review-container h3{
+    font-size: 30px;
+    color: #fff;
 }
