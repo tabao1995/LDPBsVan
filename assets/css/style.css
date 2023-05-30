@@ -94,7 +94,6 @@ p,li{
 .slick-slide
 {
     height: inherit !important;
-    margin: 12px;
 }
 .chiphi {
     background: linear-gradient(135deg, rgb(4, 170, 110) 0%, rgba(36,154,17,0.46262254901960786)100%);
