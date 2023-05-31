@@ -23,6 +23,10 @@ p,li{
     padding: 80px;
     color: #fff;
     font-family: "open-sans", sans-serif;
+    background:url(/assets/img/Artboard-1.jpg) no-repeat center;
+    background-size: cover;
+    height: 70vh;
+
 }
 img{
     width: 100%;
@@ -172,3 +176,4 @@ img{
     font-size: 30px;
     color: #fff;
 }
+/* tablet and mobile */
