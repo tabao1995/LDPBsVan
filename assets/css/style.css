@@ -222,6 +222,10 @@ img{
         margin: auto;
     
     }
+    h2{
+        font-size: 32px;
+    }
+    
 }
 @media screen and (max-width:768px) {
     .form-container {
@@ -229,4 +233,10 @@ img{
         margin: auto;
     
     }
+    .four-assert-container{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        gap :16px
+      
+      } 
 }
