@@ -2,9 +2,13 @@
     padding: 0;
     margin: 0;
 }
+h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0;
+}
 h2 , h3 {
     line-height: 1.5em;
-    padding-bottom: 4px;
 }
 p,li{
     font-size: 18px;
@@ -58,7 +62,7 @@ img{
 .four-assert-container > .assert h2  {
     padding-bottom: 4px;
 }
-.title h2{
+.title h3{
     text-align: center;
 } 
 .form-container {
@@ -102,8 +106,11 @@ img{
     color: #55b546;
     font-size: 40px;
     margin-bottom: 12px;
-    font-style: italic;
+    font-weight: 700;
 
+}
+.section5{
+    background-color:  #ddd;
 }
 
 .about-invisaligin-container-text  p{
@@ -204,3 +211,22 @@ img{
     color: #fff;
 }
 /* tablet and mobile */
+@media screen and (max-width:1024px) {
+    .about-invisaligin-container,.quytrinh-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:16px ;
+    }
+    .form-container {
+        width: 60%;
+        margin: auto;
+    
+    }
+}
+@media screen and (max-width:768px) {
+    .form-container {
+        width: 80%;
+        margin: auto;
+    
+    }
+}
