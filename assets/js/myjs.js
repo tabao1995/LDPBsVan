@@ -1,7 +1,7 @@
 jQuery(document).ready(() =>{
    jQuery(".slider-before-and-after").slick({
-        slidesToShow: 2,
-        slidesToScroll: 2, 
+        slidesToShow: 4,
+        slidesToScroll: 4, 
         autoplay: true,
         autoplaySpeed: 2000,
     })

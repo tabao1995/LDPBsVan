@@ -86,8 +86,35 @@ img{
     outline: none;
     border: none;
 }
+
 .contact-form .flashanimation {
     animation: flash 700ms infinite;
+}
+.about-invisaligin-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.about-invisaligin-container-text{
+    text-align: center;
+}
+.about-invisaligin-container-text  h3{
+    color: #55b546;
+    font-size: 40px;
+    margin-bottom: 12px;
+    font-style: italic;
+
+}
+
+.about-invisaligin-container-text  p{
+    font-style: italic;
+}
+.about-invisaligin-container,.quytrinh-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:16px ;
+}
+.about-invisaligin-container > div.quytrinh-container > div{
 }
 @keyframes flash {
     0% {        opacity: 1;    }
