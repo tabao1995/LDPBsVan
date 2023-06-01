@@ -1,11 +1,14 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: "open-sans", sans-serif;
+
 }
 h2{
     text-align: center;
     font-size: 40px;
-    padding: 40px 0;
+    padding: 6px 0;
+    color: #1e68a1;
 }
 h2 , h3 {
     line-height: 1.5em;
@@ -18,7 +21,8 @@ p,li{
 .section{
     width: 90%;
     margin: auto;
-    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     
 }
 .banner{
@@ -65,16 +69,41 @@ img{
 .title h3{
     text-align: center;
 } 
-.form-container {
-    width: 40%;
+.contact-form .form-container {
+    display: grid;
+    grid-template-columns: 55% 40%;
+    gap :5%;
+    width: 90%;
     margin: auto;
+}  
+.contact-form .form-container-text {
+    background: url(/assets/img/3711711-6382d960ba93b19cda10924f308e5bfb-20200402100356.png) no-repeat bottom right;
+    background-size: 200px;
+}
+.contact-form .form-container .form-logo img{
+    height: 100%;
+    width: 30%;
+}
+.contact-form h2{
+    display: inline;
+    color: #1e68a1;
+    text-align: start;
+    font-size: 30px;
+    padding-bottom:4px ;
+    border-bottom: 2px #1e68a1 solid;
+
+}
+.contact-form p{
+    display: inline;
+    color: #1e68a1;
+    text-align: start;
+    font-size: 20px;
+    padding-bottom:4px ;
 
 }
 .contact-form h3{
     color: #fff;
-    text-align: center;
-    font-size: 36px;
-
+    font-size: 32px;
 }
 .contact-form form {
     background-color: #55b546;
@@ -86,13 +115,47 @@ img{
 .contact-form input {
     padding:12px 24px;
     border-radius: 8px;
-    margin: 20px;
+    margin: 12px 0;
     outline: none;
     border: none;
 }
-
+.contact-form input.button-submit {
+    padding: 20px;
+    font-size: 24px;
+}
 .contact-form .flashanimation {
     animation: flash 700ms infinite;
+}
+.case-title img{
+    width: 70px ;
+}
+.case-title{
+    text-align: center;
+}
+
+.case-title h2{
+    color: #1e68a1;
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+}
+.case-title h2::before{
+    content: "";
+    width: 50%;
+    border-bottom: #1e68a1 2px solid;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+}
+.case-img{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.case-text p{
+    font-size: 24px;
+    color: #1e68a1;
+    text-align: center;
 }
 .about-invisaligin-container-text {
     display: flex;
@@ -109,10 +172,12 @@ img{
     font-weight: 700;
 
 }
-.section5{
+.custom-container,.section5{
     background-color:  #ddd;
 }
-
+.chiphi h2{
+    color: #fff;
+}
 .about-invisaligin-container-text  p{
     font-style: italic;
 }
@@ -150,13 +215,35 @@ img{
     font-size: 50px;
 }
 .chiphi {
-    background: linear-gradient(135deg, rgb(4, 170, 110) 0%, rgba(36,154,17,0.46262254901960786)100%);
+    background: #19640f;
+    
 
 }
 .chiphi .chiphi-section-60{
     width: 60%;
     padding: 60px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+.chiphi ::marker{
+    content: ""!important;
+}
+.chiphi ul {
+    padding-left: 30px;
+}
+.chiphi ul li{
+    position: relative;
+}
+.chiphi ul li::before{
+    content: "";
+    position: absolute;
+    height: 18px;
+    width:18px;
+    background:url(/assets/img/icon-svg/tooth-svgrepo-com.svg) no-repeat center;
+    background-size: contain;
+    left: -30px;
 }
 .chiphi-header{
     display: flex;
@@ -180,7 +267,7 @@ img{
     color: #fff;
 }
 .chiphi-button {
-    padding :40px;
+
     display: flex;
     align-content: center;
     justify-content: center;
@@ -194,9 +281,12 @@ img{
     border-radius: 80px;
     box-shadow: 5px 5px 5px #19640f;
 }
+.custom-container {
+    background-color: #ddd
+}
 .custom-review .slick-slide {
-    background-color: #55b546;
-    padding: 48px 100px;
+    background-color: #fff;
+    padding:50px;
     border-radius: 32px;
     margin: 12px;
 }
@@ -205,10 +295,111 @@ img{
     color: #fff;
 
 }
+.custom-review-container {
+    display: flex ;
+    flex-direction: column;
+    position: relative; 
+}
+.custom-review-container .custom-review-header{
+    display: flex;
+    align-items: center;
+}
+.custom-review-container .custom-review-header-img img {
+    width: 100%;
+    object-fit: cover;
+    max-width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.custom-review-container .custom-review-header-img{
+    width: 70px;
+}
+.custom-review-header-name h3 {
+    font-size: 24px;
+    padding-left: 12px;
+    font-weight: 400;
+}
 
-.custom-review-container h3{
+.custom-review-header-name h3 span {
+    font-size: 18px;
+    padding-left: 12px;
+}
+.custom-review-content{
+    padding-top: 20px;
+    height: 5em;
+    overflow: hidden;
+    text-overflow: ellipsis;   
+    
+}
+.custom-review-container p{
+    font-size:18px;
+    color: #7c7c7c; 
+}
+.custom-review-container::after {
+    content: "";
+    position: absolute;
+    background: url("/assets/img/icon-svg/quote-right.svg") no-repeat;
+    bottom: -40px;
+    right: -10px;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    z-index: 2;
+}
+.form-container-form-end{
+    width: 40%;
+    margin: auto;
+}
+.custom-review-rating{
+    margin-top: 20px;
+}
+.custom-review-rating img{
+    width: 16px;
+    display: inline;
+}
+.footer{
+    z-index: 1;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://inba-ng.hibotheme.com/assets/images/dental-tourism/footer/footer-bg.jpg);
+   
+}
+.footer::before {
+    background-color: #19640f;
+    position: absolute;
+    height: 100%;
+    opacity: 0.9;
+    z-index: -1;
+    width: 100%;
+    content: "";
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.footer .footer-header{
+    display: grid;
+    grid-template-columns: 48% 24% 24%;
+    gap: 2%;
+}
+.footer h2 {
+    margin: 0 0 20px 0;
+    line-height: 1;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: start;
+}
+.footer  h2 a {
+    color: #fff;    
     font-size: 30px;
+    
+}
+.footer a, .footer{
     color: #fff;
+}
+.footer li span{
+    color: #55b546;
 }
 /* tablet and mobile */
 @media screen and (max-width:1024px) {
@@ -217,10 +408,9 @@ img{
         grid-template-columns: 1fr;
         gap:16px ;
     }
-    .form-container {
+    .form-container-form-end{
         width: 60%;
         margin: auto;
-    
     }
     h2{
         font-size: 32px;
@@ -228,10 +418,9 @@ img{
     
 }
 @media screen and (max-width:768px) {
-    .form-container {
+    .form-container-form-end{
         width: 80%;
         margin: auto;
-    
     }
     .four-assert-container{
         display: grid;

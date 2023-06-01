@@ -6,7 +6,10 @@ jQuery(document).ready(() =>{
         autoplaySpeed: 2000,
     })
     jQuery(".custom-review").slick({
-        slidesToShow: 1,
+        slidesToShow: 2 ,
         slidesToScroll: 1, 
+        arrows:false,
+        autoplay: true,
+        autoplaySpeed: 3000,
     })
 })
