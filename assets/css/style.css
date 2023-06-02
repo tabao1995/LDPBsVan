@@ -19,6 +19,7 @@ p,li{
     padding-bottom: 4px ;
 }
 .section{
+    max-width: 1440px;
     width: 90%;
     margin: auto;
     padding-top: 60px;
@@ -380,8 +381,8 @@ img{
 }
 .footer .footer-header{
     display: grid;
-    grid-template-columns: 48% 24% 24%;
-    gap: 2%;
+    grid-template-columns: 40% 26% 26%;
+    gap: 2.5%;
 }
 .footer h2 {
     margin: 0 0 20px 0;
@@ -415,7 +416,26 @@ img{
     h2{
         font-size: 32px;
     }
-    
+    .case-img {
+        flex-direction: column;
+        padding-bottom: 16px;
+    }
+    .chiphi .chiphi-section-60{
+        width: 80%;
+    }
+    .footer .footer-header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer .footer-infomation{
+        width: 60%;
+        padding-bottom: 10px;
+    }
+  
+    .footer-facebook,.footer-map{
+        width: 40%;
+    }
 }
 @media screen and (max-width:768px) {
     .form-container-form-end{
@@ -428,4 +448,14 @@ img{
         gap :16px
       
       } 
+      .footer .footer-header{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .footer-infomation,.footer-facebook,.footer-map{
+        width: 100%;
+    }
+
 }
