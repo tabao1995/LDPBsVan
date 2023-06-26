@@ -460,13 +460,13 @@ img{
       
       } 
       h2{
-        font-size: 24px;
+        font-size: 22px;
     }
     h3{
-        font-size: 20px!important;
+        font-size: 16px!important;
     }
     p{
-        font-size :16px !important;
+        font-size :14px !important;
     }
       .footer .footer-header{
         display: grid;
