@@ -29,12 +29,11 @@ p,li{
 .banner{
     background-color: #19640f;
     text-align: center;
-    padding: 80px;
     color: #fff;
     font-family: "open-sans", sans-serif;
     background:url(/assets/img/Artboard-1.jpg) no-repeat center;
-    background-size: cover;
-    height: 70vh;
+    background-size: contain;
+    aspect-ratio: 1921/831;
 
 }
 img{
@@ -123,6 +122,8 @@ img{
 .contact-form input.button-submit {
     padding: 20px;
     font-size: 24px;
+    background-color: #fd9e3b;
+    color: #fff;
 }
 .contact-form .flashanimation {
     animation: flash 700ms infinite;
