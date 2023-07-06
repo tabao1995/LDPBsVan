@@ -449,6 +449,9 @@ img{
     }
 }
 @media screen and (max-width:768px) {
+    .chiphi .chiphi-section-60{
+        padding:60px 0;
+    }
     .form-container-form-end{
         width: 80%;
         margin: auto;
@@ -456,9 +459,18 @@ img{
     .four-assert-container{
         display: grid;
         grid-template-columns:  1fr 1fr;
-        gap :16px
+        gap :30px
       
       } 
+      .four-assert-container img{
+        height: 40px;
+        position: absolute;
+        top:-25px;
+        z-index: 2;
+        background: #fff;
+        left: calc(50% - 15px);
+        width: unset;
+    }
       h2{
         font-size: 22px;
     }
