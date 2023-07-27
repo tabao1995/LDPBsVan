@@ -31,10 +31,19 @@ p,li{
     text-align: center;
     color: #fff;
     font-family: "open-sans", sans-serif;
-    background:url(/assets/img/Artboard-1.jpg) no-repeat center;
+    /* background:url(/assets/img/Artboard-1.jpg) no-repeat center; */
     background-size: contain;
     aspect-ratio: 1921/831;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px
+}
+.section1_content__addition {
+    display: flex;
+}
+.section_content__addition_left{
+    min-width: 200px
 }
 img{
     width: 100%;
