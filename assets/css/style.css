@@ -51,23 +51,25 @@ img{
 .banner h1{
     font-size: 40px;
 }
-.four-assert-container img{
-    height: 60px;
-    position: absolute;
-    top:-25px;
-    z-index: 2;
-    background: #fff;
-    left: calc(50% - 25px);
-    width: unset;
+
+.four-assert-container .image{
+    text-align: center;
+}
+.four-assert-container .image img{
+    width: 80px;
+    background: linear-gradient(#55b546 100%, #19640f 0%  );
+    height: 80px;
+    padding: 10px;
+    border-radius: 50%;
 }
 .four-assert-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap :16px
+  gap :16px;
+  margin-top: 90px;
 
 }
 .four-assert-container > .assert {
-    border: #19640f 1px solid;
     border-radius: 20px;
     padding: 50px 8px 30px;
     position: relative;
@@ -542,4 +544,63 @@ img{
 .section-3-new-content{
     display: flex;
     justify-content: space-between;
+}
+.section-5-new__content {
+    display: flex;
+}
+.section-5-new__content__left{
+    margin :80px 7.5%;
+    width: 40%;
+
+}
+.section-5-new__content__left h3{
+    text-align: center;
+}
+.section-5-new__content__left ul {
+    padding-left: 10%;
+}
+.section-5-new__content__right{
+    background-color: #1e68a1;
+    width: 60%;
+
+}
+.section-6-new h2{
+    text-align: center;
+}
+.section-6-new__text-withborder p{
+   text-align: center;
+   padding: 20px;
+  
+}
+.section-6-new__text-withborder p span{
+    font-size: 30px;
+    color: #1e68a1;
+    border-bottom: 1px solid #1e68a1;
+    border-top: 1px solid #1e68a1;
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+}
+.section-6-new__text-withborder p span:after{
+    content:"";
+    height:0;
+    width: 0;
+    border-top: 40px solid #55b546;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    position: absolute;
+    bottom: -50px;
+    left: calc(50% - 40px);
+
+}
+.section-6-new__link{
+    text-align: center;
+    margin-top:20px;
+}
+.section-6-new__link a{
+    color:#fff;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #fd9e3b;
+    padding: 20px 40px;
 }
