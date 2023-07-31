@@ -535,7 +535,7 @@ img{
     padding: 0 20px;
 }
 .section-3-new{
-    background-color: #7c7c7c;
+    background-color: #19640f ;
 }
 .section-3-new-title{
     text-align: center;
@@ -603,4 +603,9 @@ img{
     border-radius: 20px;
     background-color: #fd9e3b;
     padding: 20px 40px;
+}
+.section-7-new {
+    aspect-ratio: 1920/830;
+    width: 100%;
+    background-color: #aaa;
 }
