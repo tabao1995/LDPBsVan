@@ -31,7 +31,7 @@ p,li{
     text-align: center;
     color: #fff;
     font-family: "open-sans", sans-serif;
-    /* background:url(/assets/img/Artboard-1.jpg) no-repeat center; */
+    background:url(/assets/img/section1.jpg) no-repeat center;
     background-size: contain;
     aspect-ratio: 1921/831;
     display: flex;
@@ -51,7 +51,9 @@ img{
 .banner h1{
     font-size: 40px;
 }
-
+.section1_content{
+    width: 50%;
+}
 .four-assert-container .image{
     text-align: center;
 }
@@ -507,7 +509,10 @@ img{
 }
 .section-2-new{
     background-color: #55b546;
-    padding: 80px 0;
+    background:url(/assets/img/section2.jpg) no-repeat center;
+    background-size: contain;
+    aspect-ratio: 1921/831;
+
 }
 .section-2-new__content{
     display: flex;
@@ -535,7 +540,7 @@ img{
     padding: 0 20px;
 }
 .section-3-new{
-    background-color: #19640f ;
+    background-color: #f2f2f2 ;
 }
 .section-3-new-title{
     text-align: center;
@@ -544,6 +549,11 @@ img{
 .section-3-new-content{
     display: flex;
     justify-content: space-between;
+}
+.section-4-new{
+    background-image: url(/assets/img/section3.jpg);
+    background-size: contain;
+    aspect-ratio: 1921/831;
 }
 .section-5-new__content {
     display: flex;
@@ -557,12 +567,32 @@ img{
     text-align: center;
 }
 .section-5-new__content__left ul {
-    padding-left: 10%;
+    padding-left:30px;
+}
+.section-5-new__content__left ul li {
+    padding: 12px;
+    position: relative;
+}
+.section-5-new__content__left ul li::marker{
+    content:"";
+   
+}
+.section-5-new__content__left ul li:after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: url(/assets/img/icon-svg/tooth-svgrepo-com.svg) center ;
+    background-size: contain;
+    left: -20px;
+    z-index: 300;
 }
 .section-5-new__content__right{
     background-color: #1e68a1;
     width: 60%;
-
+    background: url(/assets/img/section4.png) center no-repeat;
+    background-size:contain ;
+    aspect-ratio: 1150 / 830;
 }
 .section-6-new h2{
     text-align: center;
@@ -608,4 +638,6 @@ img{
     aspect-ratio: 1920/830;
     width: 100%;
     background-color: #aaa;
+    background: url(/assets/img/Artboard\ 1\ copy\ 22.png) center no-repeat;
+    background-size: contain;
 }
