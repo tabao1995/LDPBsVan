@@ -139,7 +139,7 @@ img{
     background-color: #fd9e3b;
     color: #fff;
 }
-.contact-form .flashanimation {
+.flashanimation {
     animation: flash 700ms infinite;
 }
 .case-title img{
@@ -558,14 +558,16 @@ img{
 }
 .section-5-new__content {
     display: flex;
+    background-color:#55b546     ;
+
 }
 .section-5-new__content__left{
     margin :80px 7.5%;
     width: 40%;
-
 }
 .section-5-new__content__left h3{
     text-align: center;
+    font-size: 30px;
 }
 .section-5-new__content__left ul {
     padding-left:30px;
@@ -573,6 +575,7 @@ img{
 .section-5-new__content__left ul li {
     padding: 12px;
     position: relative;
+    font-size: 20px;
 }
 .section-5-new__content__left ul li::marker{
     content:"";
@@ -583,10 +586,11 @@ img{
     position: absolute;
     height: 20px;
     width: 20px;
-    background: url(/assets/img/icon-svg/tooth-svgrepo-com.svg) center ;
+    background: url(/assets/img/icon-svg/tooth-svgrepo-com.png) center ;
     background-size: contain;
     left: -20px;
     z-index: 300;
+    top:0.8em
 }
 .section-5-new__content__right{
     background-color: #1e68a1;
@@ -641,4 +645,8 @@ img{
     background-color: #aaa;
     background: url(/assets/img/Artboard\ 1\ copy\ 22.png) center no-repeat;
     background-size: contain;
+}
+.section-8-new__title h2{
+    text-transform: uppercase;
+    color: #55b546;
 }
