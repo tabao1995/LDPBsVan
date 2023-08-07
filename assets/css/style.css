@@ -38,7 +38,6 @@ p,li{
     align-items: end;
     justify-content: center;
     gap: 60px;
-    padding-bottom:20px ;
 }
 .section1_content__addition {
     display: flex;
@@ -122,7 +121,7 @@ img{
 .contact-form form {
     background-color: #55b546;
     border-radius: 12px;
-    padding:40px;
+    padding:30px;
     display: flex;
     flex-direction: column;
 }
@@ -507,6 +506,26 @@ img{
     }
 
 
+}
+.section1_form.contact-form {
+    margin-bottom: 40px;
+  
+}
+.section1_form.contact-form form{
+    padding: 20px;
+}
+.section1_form.contact-form h3{
+    font-size: 18px;
+}
+.section1_form.contact-form input{
+    padding: 8px ;
+    font-size: 16px;
+}
+.section1_form.contact-form input.button-submit {
+    padding: 16px;
+    font-size: 16px;
+    background-color: #fd9e3b;
+    color: #fff;
 }
 .section-2-new{
     background-color: #55b546;
