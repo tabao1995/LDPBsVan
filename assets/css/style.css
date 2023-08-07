@@ -650,3 +650,15 @@ img{
     text-transform: uppercase;
     color: #55b546;
 }
+.section-8-new__slider{
+    padding: 0 50px;
+}
+.slick-prev:before, .slick-next:before{
+    color:#19640f
+}
+.section-8-new__slider .slick-next{
+    right: 30px;
+}
+.section-8-new__slider .slick-prev{
+    left: 0px;
+}
