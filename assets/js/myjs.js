@@ -62,5 +62,13 @@ jQuery(document).ready(() => {
   $(".section-8-videoslide").slick({
     slidesToShow: 2,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 });
