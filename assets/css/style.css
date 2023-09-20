@@ -609,6 +609,21 @@ img{
 .section-8-new__slider .slick-prev{
     left: 0px;
 }
+.countdown-container{
+    display: flex;
+    gap: 50px;
+    margin: 20px auto;
+  }
+.countdown-container .countdown-item{
+    padding: 8px;
+    border-radius: 4px;
+    background-color: var(--yellowcolor);
+    text-align: center;
+    color: #fff;
+}
+.countdown-container .countdown-item .countdown-number{
+      animation: flash 1s infinite;
+  }
 @media screen and (max-width:1024px) {
     .about-invisaligin-container,.quytrinh-container{
         display: grid;

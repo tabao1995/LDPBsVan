@@ -404,7 +404,24 @@ allowfullscreen></iframe>
     
             <div class="form-container-form-end">
                 <form action="/sendmail.php" method="post">
-                    <h3>Giảm giá đến <span class="flashanimation"> 25% </span></h3>
+                    <div class="countdown-container">
+                        <div class="countdown-item">
+                          <div id="days" class="countdown-number"></div>
+                          <div class="countdown-label">Ngày</div>
+                        </div>
+                        <div class="countdown-item">
+                          <div id="hours" class="countdown-number"></div>
+                          <div class="countdown-label">Giờ</div>
+                        </div>
+                        <div class="countdown-item">
+                          <div id="minutes" class="countdown-number"></div>
+                          <div class="countdown-label">Phút</div>
+                        </div>
+                        <div class="countdown-item">
+                          <div id="seconds" class="countdown-number"></div>
+                          <div class="countdown-label">Giây</div>
+                        </div>
+                      </div>
                     <input type="text" name="name" placeholder="Họ Và Tên Khách hàng">
                     <input type="text" name="phonenumber" placeholder="Số Điện Thoại">
                     <input class="button-submit" type="submit" value="Đăng Ký">
