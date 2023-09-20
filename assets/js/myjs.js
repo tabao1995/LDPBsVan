@@ -43,7 +43,7 @@ jQuery(document).ready(() => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1000,
     responsive: [
       {
         breakpoint: 1024,
@@ -70,5 +70,12 @@ jQuery(document).ready(() => {
         },
       },
     ],
+  });
+  $(".section-5-new__content__right").slick({
+    slidesToShow: 1,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    dots: false,
   });
 });
